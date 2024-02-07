@@ -22,5 +22,8 @@ public class Ejercicio4 {
                 min = num;
             }
         }
+
+        System.out.println("El numero maximo introducido es: " + max);
+        System.out.println("El numero minimo introducido es: " + min);
     }
 }
