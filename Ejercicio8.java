@@ -16,5 +16,12 @@ public class Ejercicio8 {
                 if (num > max) max = num;
             }
         } while (num != 0);
+
+        if (count > 0) {
+            double media = (double) sum / count;
+            System.out.println("Media: " + media);
+            System.out.println("Minimo: " + min);
+            System.out.println("Maximo: " + max);
+        }
     }
 }
