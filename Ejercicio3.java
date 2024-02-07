@@ -9,4 +9,7 @@ public class Ejercicio3 {
                 System.out.println(i);
             }
         }
+        System.out.println("La suma de los multiplos de 5 entre 1 y 100 es: " + suma);
+        System.out.println("La cantidad de multiplos de 5 entre 1 y 100 es: " + contador);
+    }
 }
