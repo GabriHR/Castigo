@@ -11,4 +11,12 @@ public class Ejercicio1{
 
         return years * secondsInYear + months * secondsInMonth + days * secondsInDay;
     }
+
+    public static void main(String[] args) {
+        int years = 1;
+        int months = 2;
+        int days = 3;
+        long seconds = calcularSegundos(years, months, days);
+        System.out.println("El numero de segundos en " + years + " años, " + months + " meses y " + days + " dias es: " + seconds);
+    }
 }
